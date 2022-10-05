@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
   }
 body{
-    background-image: url(./backgriund2.jpeg)
+    background-image: url(../Imagesportfolio/backgriund2.jpeg)
     
 }
 nav {
@@ -27,8 +27,6 @@ nav {
     color: #d38e0e;
   }
   nav ul li {
-    /* background-color: #d38e0e;
-    border-radius: 25%; */
     display:inline-flex;
     list-style-type:none;
     padding: 10px 30px;
@@ -52,11 +50,6 @@ nav {
     cursor: pointer;
   }
 
-  /* img{
-    display:block;
-    max-width: 100%;
-    height: auto;
-  } */
   .hj{
     display:flex;
     justify-content: center;
@@ -64,7 +57,6 @@ nav {
     flex-wrap: wrap;
   }
   .card {
-    /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 300px;
@@ -75,13 +67,11 @@ nav {
     background-image: linear-gradient(blue,violet,blue);
   }
   
-  /* On mouse-over, add a deeper shadow */
   .card:hover {
     background-image: linear-gradient(darkblue,rgb(111, 188, 214),darkblue);
     box-shadow: 0 -1px 10px 0 rgba(246, 245, 245, 0.934), 2px 3px 10px 0 rgba(252, 251, 251, 0.912);;
   }
   
-  /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
     color: antiquewhite;
@@ -107,7 +97,7 @@ h1{
     display: flex;
     justify-content: center;
     text-shadow: 3px 3px 5px rgb(201, 19, 180);
-    padding: 100px;
+    padding: 50px;
   }
 
   @media  screen and (max-width:600px) {
